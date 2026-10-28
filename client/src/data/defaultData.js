@@ -11,7 +11,7 @@ export const defaultProfile = {
   university: 'Al-Razi University — Sana\'a, Yemen',
   graduation: 2026,
   image: {
-    url: '/profail.jpg',
+    url: '/Firefly_RemoveBackground.png',
     public_id: 'profile_mock_img',
   },
   cv: {
