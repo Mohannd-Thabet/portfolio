@@ -2,13 +2,13 @@ export const mockProfile = {
   _id: 'mock-profile-001',
   singletonKey: 'main',
   name: 'Mohannad AL- Buhari',
-  title: 'IT Support Engineer & Full Stack Developer',
-  subtitle: 'Information Technology Engineer specialized in IT Support, Troubleshooting, and Web & Mobile App Development with Flutter, React, and Python.',
+  title: 'Full Stack Developer',
+  subtitle: 'Information Technology Engineer specialized in IT Support, Troubleshooting, and Web & Mobile App Development with Flutter, React, AI Tools Proficiency, and Python.',
   about: 'Information Technology Engineer and graduate with solid experience in IT support, troubleshooting, software development, and technical problem-solving. Skilled in software testing, database management (MySQL and Microsoft SQL Server), RESTful APIs, and cross-platform web and mobile application development using Flutter, Dart, React.js, and Python. Experienced in analyzing and resolving complex technical issues, documenting solutions, and supporting software systems.',
   email: 'mohannad.buhari@gmail.com',
   linkedin: 'https://www.linkedin.com/in/mohannad-al-buhari',
   github: 'https://github.com/mohannad-al-buhari',
-  university: 'Al-Razi University — Sana\'a, Yemen',
+  university: 'College of Computer Science and Information Technology',
   graduation: 2026,
   image: {
     url: '/Firefly_RemoveBackground.png',
@@ -125,7 +125,7 @@ export const mockProjects = [
   {
     _id: 'project-001',
     title: 'مزايا المقبلي | توريد وتوصيل الديزل',
-    description: 'موقع ومنصة رقمية رسمية لشركة مزايا المقبلي لخدمات توصيل وتوريد الديزل والمحروقات في المملكة العربية السعودية، تشمل واجهة تفاعلية حديثة، ودعم الوضع الليلي والنهاري (Dark/Light mode)، وحاسبة كميات وتواصل فوري مباشر عبر الواتساب.',
+    description: 'Official website and digital platform for Mazaya Al-Muqbali, a company specializing in diesel delivery and fuel supply services across Saudi Arabia. The platform features a modern interactive interface, dark and light mode support, a fuel quantity calculator, and instant direct communication via WhatsApp.',
     tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'Dark Mode'],
     image: {
       url: '/projects/mazaya.png',
@@ -139,7 +139,7 @@ export const mockProjects = [
   {
     _id: 'project-002',
     title: 'مؤسسة كونكورد للوقود (Concord KSA)',
-    description: 'الموقع الرسمي لمؤسسة كونكورد للوقود بالمملكة العربية السعودية الرائدة في تقديم الخدمات البترولية وتوزيع الديزل للمشاريع والمصانع الكبرى، تم تطويره بالكامل بنظام WordPress مع تهيئة متقدمة لمحركات البحث (SEO) ونماذج تواصل رقمية.',
+    description: 'Official website of Concord Fuel Establishment in Saudi Arabia, a leading provider of petroleum services and diesel distribution for major projects and industrial facilities. The website was fully developed using WordPress, featuring advanced Search Engine Optimization (SEO) and digital contact forms.',
     tags: ['WordPress', 'PHP', 'SEO', 'Elementor', 'Corporate Identity'],
     image: {
       url: '/projects/concord.png',
@@ -153,13 +153,13 @@ export const mockProjects = [
   {
     _id: 'project-003',
     title: 'منصة وتطبيق يمن نقل (Yemen Naql Platform)',
-    description: 'مشروع التخرج: منصة لوجستية وتطبيق ذكي لنقل وشحن البضائع يربط العملاء بسائقي الشاحنات في اليمن، يتيح تتبع الشحنات عبر خرائط جوجل (GPS)، وإدارة الرحلات والأسعار، مع لوحة تحكم إدارية ويب (React.js) وقاعدة بيانات MySQL متكاملة.',
+    description: 'Graduation Project: A logistics platform and smart freight transportation application that connects customers with truck drivers across Yemen. The system enables real-time shipment tracking using Google Maps (GPS), trip and pricing management, and includes a web-based administrative dashboard built with React.js and an integrated MySQL database.',
     tags: ['Flutter', 'Dart', 'React.js', 'Google Maps API', 'RESTful APIs', 'MySQL'],
     image: {
       url: '/yemen_naql/1.png',
       public_id: 'proj_yemen_naql',
     },
-    githubUrl: 'https://github.com/mohannad-al-buhari',
+    githubUrl: '',
     liveUrl: '#gallery',
     gallery: [
       '/yemen_naql/1.png',
