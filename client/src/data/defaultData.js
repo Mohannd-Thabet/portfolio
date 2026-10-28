@@ -296,3 +296,31 @@ export const defaultCertificates = [
     ],
   },
 ];
+
+export const defaultMessages = [
+  {
+    _id: 'msg-001',
+    name: 'أحمد الصالح',
+    email: 'ahmed.alsaleh@example.com',
+    subject: 'طلب تعاون في مشروع تقني',
+    message: 'مرحبًا مهندس مهند، اطلعت على أعمالك ومشاريعك في الفلاتر والويب وأود مناقشة فرصة عمل وتطوير تطبيق جديد معك.',
+    isRead: false,
+    createdAt: new Date().toISOString(),
+  },
+];
+
+export const defaultVisits = {
+  total: 248,
+  today: 18,
+  thisWeek: 94,
+  thisMonth: 248,
+};
+
+export const defaultTimeline = Array.from({ length: 14 }).map((_, i) => {
+  const d = new Date();
+  d.setDate(d.getDate() - (13 - i));
+  return {
+    date: d.toISOString().split('T')[0],
+    visits: Math.floor(Math.random() * 15) + 5,
+  };
+});
