@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0f;
+  --color-surface: #12121a;
+  --color-border: #ffffff33;
+  --color-primary: #e8e8f0;
+  --color-secondary: #6b6b8a;
+  --color-accent: #7b61ff;
+  --color-accent-glow: #7b61ff33;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #12121a inset;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+::selection {
+  background-color: #7b61ff;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
+
+button {
+  cursor: pointer;
+}
